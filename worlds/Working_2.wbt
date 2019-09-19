@@ -1,0 +1,169 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.9989139830772094 -0.03624464927324291 -0.029277633304011032 5.1717592772273235
+  position 0.514530629777665 6.769407211841904 3.869205821424984
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RectangleArena {
+  translation -0.02 0 0
+  floorSize 12 12
+  floorTileSize 1 1
+}
+SolidBox {
+  translation 1.59 1 -2.82
+  size 1 2 1
+}
+SolidPipe {
+  translation -2.76 1 3.42
+  name "pipe(1)"
+  radius 0.7
+}
+SolidPipe {
+  translation 1.85 0.25 -0.38
+  height 0.5
+  radius 0.4
+}
+E-puck {
+  translation 0.22999999999999998 0 0.22
+  name "Wolf9"
+  controller "wolf_trial2"
+  customData "4,7,272,4.9,0.97,3"
+  turretSlot [
+    InertialUnit {
+    }
+    Receiver {
+      name "receiver7"
+    }
+    Emitter {
+      name "emitter7"
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation -0.26 0 0.22999999999999998
+  name "Wolf5"
+  controller "wolf_trial2"
+  customData "5,7,272,4.9,0.97,3"
+  turretSlot [
+    Receiver {
+      name "receiver5"
+    }
+    Emitter {
+      name "emitter5"
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation -0.25 0 -0.26999999999999996
+  name "Wolf6"
+  controller "wolf_trial2"
+  customData "6,7,272,4.9,0.97,3"
+  turretSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+    Emitter {
+      name "emitter6"
+    }
+    Receiver {
+      name "receiver6"
+    }
+  ]
+}
+E-puck {
+  translation 0 0 -0.5
+  name "Wolf3"
+  controller "wolf_trial2"
+  customData "3,7,272,4.9,0.97,3"
+  turretSlot [
+    Receiver {
+      name "receiver3"
+    }
+    Emitter {
+      name "emitter3"
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation 0.24 0 -0.26999999999999996
+  name "Wolf2"
+  controller "wolf_trial2"
+  customData "2,7,272,4.9,0.97,3"
+  turretSlot [
+    Emitter {
+      name "emitter2"
+    }
+    Receiver {
+      name "receiver2"
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation 0 0 0.5
+  name "Wolf0"
+  controller "wolf_trial2"
+  customData "0,7,272,4.9,0.97,3"
+  turretSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+    Receiver {
+      name "receiver0"
+      channel 1
+    }
+    Emitter {
+      name "emitter0"
+      channel 1
+    }
+  ]
+}
+E-puck {
+  translation -0.02 0 0
+  name "Wolf1"
+  controller "wolf_trial2"
+  customData "1,7,272,4.9,0.97,3"
+  turretSlot [
+    Receiver {
+      name "receiver1"
+      channel 1
+    }
+    Emitter {
+      name "emitter1"
+      channel 1
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+WoodenBox {
+  translation -1.27 0.3 -1.25
+}
+WoodenBox {
+  translation 1.36 0.3 3.31
+  name "wooden box(1)"
+  size 1.5 0.6 0.6
+}

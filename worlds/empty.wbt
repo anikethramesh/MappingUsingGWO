@@ -1,0 +1,81 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.9999017590106565 -0.013505101887456 -0.0037529389023399765 1.284492788086319
+  position -0.11344594722776657 2.6226076485538137 0.7742284528539476
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 15 15
+  floorTileSize 1 1
+}
+E-puck {
+  translation 0 0 -0.5
+  name "e-puck(3)"
+  controller "wolf_trial1"
+  turretSlot [
+    Receiver {
+    }
+    Emitter {
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation 0.5 0 0
+  name "e-puck(2)"
+  controller "wolf_trial1"
+  controllerArgs "3"
+  turretSlot [
+    Emitter {
+    }
+    Receiver {
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation 0 0 0.5
+  controller "wolf_trial1"
+  controllerArgs "1"
+  turretSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+  ]
+}
+E-puck {
+  translation -0.5 0 0
+  name "e-puck(1)"
+  controller "wolf_trial1"
+  controllerArgs "2"
+  turretSlot [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.0019311091910104148 -0.9101353409929654 -0.41430656752326644 3.1478077005479586
+  position 0.0377742798616284 3.809539442713351 -2.955010585709616
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 20 20
+  floorTileSize 1 1
+}
+WoodenBox {
+  translation 0 0.3 1.3299999999999998
+  size 1 0.6 0.1
+}
+E-puck {
+  name "Wolf0"
+  controller "bug_debugger"
+  customData "0,4,300,4,0.01,2"
+  turretSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+  ]
+}

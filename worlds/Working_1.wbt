@@ -1,0 +1,147 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.9999189601548344 0.005888159393041466 0.01128728053326495 1.435633686800538
+  position -0.10660728115793228 6.13194134840853 0.886408957258332
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 12 12
+  floorTileSize 1 1
+}
+E-puck {
+  translation 0.25 0 -0.26999999999999996
+  name "Wolf7"
+  controller "wolf_trial1"
+  customData "7,8,300,4,0.3,3"
+  turretSlot [
+    InertialUnit {
+    }
+    Receiver {
+    }
+    Emitter {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation 0.22999999999999998 0 0.22
+  name "Wolf4"
+  controller "wolf_trial1"
+  customData "4,8,300,4,0.3,3"
+  turretSlot [
+    Emitter {
+    }
+    Receiver {
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation -0.26 0 0.22999999999999998
+  name "Wolf5"
+  controller "wolf_trial1"
+  customData "5,8,300,4,0.3,3"
+  turretSlot [
+    Receiver {
+    }
+    Emitter {
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation -0.25 0 -0.26999999999999996
+  name "Wolf6"
+  controller "wolf_trial1"
+  customData "6,8,300,4,0.3,3"
+  turretSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+    Emitter {
+    }
+    Receiver {
+    }
+  ]
+}
+E-puck {
+  translation 0 0 -0.5
+  name "Wolf3"
+  controller "wolf_trial1"
+  customData "3,8,300,4,0.3,3"
+  turretSlot [
+    Receiver {
+    }
+    Emitter {
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation 0.5 0 0
+  name "Wolf2"
+  controller "wolf_trial1"
+  customData "2,8,300,4,0.3,3"
+  turretSlot [
+    Emitter {
+    }
+    Receiver {
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
+E-puck {
+  translation 0 0 0.5
+  name "Wolf0"
+  controller "wolf_trial1"
+  customData "0,8,300,4,0.3,3"
+  turretSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+  ]
+}
+E-puck {
+  translation -0.5 0 0
+  name "Wolf1"
+  controller "wolf_trial1"
+  customData "1,8,300,4,0.3,3"
+  turretSlot [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
